@@ -41,7 +41,7 @@ def run():
         page.wait_for_timeout(1500)
 
         page.screenshot(path="screenshots/login_success.png")
-        print("✅ Dashboard fully loaded – login screenshot taken")
+        print("Dashboard fully loaded – login screenshot taken")
 
         # ==========================================================
         # CREATE EMPLOYEE – wait for FULL Personal Details load
@@ -70,7 +70,7 @@ def run():
         page.wait_for_timeout(2000)
 
         page.screenshot(path="screenshots/employee_created.png")
-        print("✅ Add Employee fully loaded – screenshot taken")
+        print("Add Employee fully loaded – screenshot taken")
 
         # ==========================================================
         # RESET NAVIGATION (CRITICAL FOR LEAVE MENU)
@@ -140,7 +140,7 @@ def run():
         page.wait_for_timeout(1500)
 
         page.screenshot(path="screenshots/leave_filled.png")
-        print("✅ Leave form filled – screenshot taken")
+        print("Leave form filled – screenshot taken")
 
         # ==========================================================
         # ATTEMPT ASSIGN (DEMO‑DEPENDENT)
