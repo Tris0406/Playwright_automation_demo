@@ -149,7 +149,7 @@ def run():
         page.wait_for_timeout(3000)
 
         page.screenshot(path="screenshots/leave_assign_attempt.png")
-        print("✅ Leave assignment attempted – screenshot taken")
+        print("Leave assignment attempted – screenshot taken")
 
         browser.close()
 
